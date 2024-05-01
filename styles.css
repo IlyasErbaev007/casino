@@ -444,7 +444,7 @@ footer h1 {
 }
 
 
-@media (max-width:414px) {
+@media (max-width:325px) {
     .controls {
         right: -20px;
         bottom: -61px;
