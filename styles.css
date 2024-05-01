@@ -84,6 +84,23 @@ body {
     background-color: #2980b9;
 }
 
+
+#levers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#levers:hover {
+    background-color: #2980b9;
+}
+
 #lever .fas {
     color: white;
     font-size: 3rem;
@@ -425,39 +442,38 @@ footer {
 footer h1 {
     color: white;
 }
-/* Медиа-запрос для мобильных устройств */
-@media screen and (max-width: 768px) {
-    /* Изменение стилей для заголовка и изображения в шапке */
-    header img {
-        width: 50px;
-        height: 50px;
-    }
 
-    .shop-link a {
-        padding: 8px 12px;
-        font-size: 14px;
-    }
 
-    /* Изменение стилей для кнопки "Играть" и поля ввода ставки */
+@media (max-width:303px) {
     .controls {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10px;
+        right: -20px;
+        bottom: -61px;
     }
-
     #bet {
-        width: 100%;
-        max-width: 200px;
-        padding: 8px;
-        font-size: 14px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
+        width: 109%;
+        max-width: 477px;
+        padding: 19px;
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    #levers{
+        width: 254px;
+        height: 146px;
+        font-size: 50px;
+    }
+    html {
+        width: 100% ;
     }
 
-    #lever {
-        width: 100%;
-        max-width: 200px;
-        padding: 8px;
-        font-size: 14px;
+    .slot-machine {
+        right: -75px;
+        height: 270px;
+        bottom: 17px;
     }
+
+    .balance-container {
+        top: 114px;
+        left: 29px;
+    }
+
 }
