@@ -1,14 +1,4 @@
 
-body {
-    background: rgb(243,243,243);
-    background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(149,143,143,1) 0%, rgba(206,206,206,1) 50%, rgba(81,81,81,1) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-}
 .slot-machine {
     width: 450px; /* Увеличим ширину для более удобного размещения */
     height: 280px;
