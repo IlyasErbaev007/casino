@@ -444,7 +444,7 @@ footer h1 {
 }
 
 
-@media (max-width:303px) {
+@media (max-width:414px) {
     .controls {
         right: -20px;
         bottom: -61px;
@@ -473,7 +473,7 @@ footer h1 {
 
     .balance-container {
         top: 114px;
-        left: 40px;
+        left: 29px;
     }
 
 }
