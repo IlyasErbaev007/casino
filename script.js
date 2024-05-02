@@ -1,4 +1,4 @@
-let balance = 1000; // Initial demo balance
+let balance = 489000; // Initial demo balance
 let winChance = 100; // Win chance in percentage (50% in this example)
 
 
